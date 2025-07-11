@@ -2,4 +2,12 @@
 2. java sdk24
 3. Amazone corretto 18.0.2
 4. intellij -> project structrue -> project settings -> modules -> common -> language leven -> 8
-5.
+5. MySQL Workbench 8.0.42 (client)
+6. mysql install in docker, id/password: com/com01
+docker pull mysql
+docker run -d   --name mysql8   -e MYSQL_ROOT_PASSWORD=admin   -p 3306:3306   mysql:8.0.42
+mysql -u root -p
+GRANT ALL PRIVILEGES ON com.* TO 'com'@'%';
+FLUSH PRIVILEGES;
+7. git install (token)
+git config --global credential.helper store
