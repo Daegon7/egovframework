@@ -10,4 +10,6 @@ mysql -u root -p
 GRANT ALL PRIVILEGES ON com.* TO 'com'@'%';
 FLUSH PRIVILEGES;
 7. git install (token)
+git config --global user.name "daegon7"
+git config --global user.email "kdg8302@gmail.com
 git config --global credential.helper store
