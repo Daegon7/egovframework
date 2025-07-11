@@ -1,0 +1,4 @@
+1. apache-tomcat-9.0.107 download
+2. java sdk24
+3. Amazone corretto 18.0.2
+4. intellij -> project structrue -> project settings -> modules -> common -> language leven -> 8
